@@ -1,6 +1,6 @@
 {
   "name": "three-octree",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "(sparse + dynamic) 3D spatial representation structure for fast searches",
   "main": "dist/index.js",
   "module": "dist/es6.js",
