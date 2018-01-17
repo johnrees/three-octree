@@ -1,0 +1,34 @@
+{
+  "name": "three-octree",
+  "version": "0.6.0",
+  "description": "(sparse + dynamic) 3D spatial representation structure for fast searches",
+  "main": "dist/index.js",
+  "module": "dist/es6.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "rollup -c && uglifyjs --compress --mangle -- dist/three-octree.js > dist/three-octree.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnrees/three-octree.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnrees/three-octree/issues"
+  },
+  "homepage": "https://github.com/johnrees/three-octree#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "rollup": "^0.54.1",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "three": "^0.89.0",
+    "uglify-js": "^3.3.7"
+  },
+  "peerDependencies": {
+    "three": "^0.89.0"
+  }
+}
